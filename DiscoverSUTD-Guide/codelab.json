@@ -1,0 +1,24 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2019-05-15T13:49:16Z",
+  "id": "DiscoverSUTD-Guide",
+  "duration": 35,
+  "title": "DiscoverSUTD Guide",
+  "authors": "OpenSUTD",
+  "summary": "Through this guide, you will be able to experience much of what SUTD can offer. This entire event can be accessed on the go (no more e-mail hunting!) and allows for dynamic feedback we progress.",
+  "source": "1TlhTP1S6leRjwvZMq51q14Jok00MotoyEMWH_n9kt-Q",
+  "theme": "guide",
+  "status": [
+    "draft"
+  ],
+  "category": [
+    "Guide"
+  ],
+  "tags": [
+    "university"
+  ],
+  "url": "DiscoverSUTD-Guide"
+}

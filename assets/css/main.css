@@ -199,8 +199,8 @@ body {
 
 @media (min-width: 1366px) {
     .discover-sutd-logo {
-        margin-left: -2.5em;
-        width: 60%;
+        margin-left: -2em;
+        width: 50%;
     }
 }
 
@@ -230,7 +230,7 @@ body,
 input,
 select,
 textarea {
-    color: #ffffff;
+    color: black;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-size: 17pt;
     font-weight: 300;
@@ -3519,8 +3519,8 @@ body.is-preload #header.alt {
     cursor: default;
     height: 60vh;
     margin-bottom: -3.25em;
-    max-height: 32em;
-    min-height: 22em;
+    max-height: 18em;
+    min-height: 14em;
     position: relative;
     top: -3.25em;
 }
