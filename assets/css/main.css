@@ -114,6 +114,10 @@ body {
     line-height: 1;
 }
 
+.padded-top {
+    padding-top: 2em;
+}
+
 ol,
 ul {
     list-style: none;
@@ -3232,8 +3236,7 @@ button:disabled,
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
-    background-color: lightgray;
-    box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
+    background-color: rgba(255, 255, 255, 0);
     cursor: default;
     font-weight: 600;
     height: 3.25em;
