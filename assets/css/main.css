@@ -3113,11 +3113,11 @@ button:disabled,
 @media screen and (max-width: 1680px) {
 
     .spotlights>section>.image {
-        width: 40%;
+        width: 30%;
     }
 
     .spotlights>section>.content {
-        width: 60%;
+        width: 70%;
     }
 
 }
