@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+  <meta charset="utf-8">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script type="text/javascript" src="js/tabletop1.3.4.js"></script>
+  <script type="text/javascript" src='js/sheetsee.js'></script>
+  <script type="text/javascript" src='js/table.js'></script>
+  <script type="text/javascript" src='js/leaflet.markercluster.js'></script>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+  <p><a href="https://discover.sutd.dev/">Return to Landing Page</a></p>
+  <h1>DiscoverSUTD Event Calendar</h1>
+  <div id="calendar-goes-here"></div>
+</body>
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function () {
+    var URL = "1oIlJOCmGjK_73WZNhZsgGwsIVOas80dXCuNgbZOdVHc"
+    Tabletop.init({
+      key: URL,
+      callback: generateCalendar,
+      simpleSheet: true
+    })
+  })
+</script>
+
+</html>
