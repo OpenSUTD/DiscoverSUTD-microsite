@@ -3232,7 +3232,7 @@ button:disabled,
     display: -webkit-flex;
     display: -ms-flex;
     display: flex;
-    background-color: #2a2f4a;
+    background-color: lightgray;
     box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.15);
     cursor: default;
     font-weight: 600;
@@ -3931,7 +3931,7 @@ body.is-preload #banner>.inner {
     -ms-justify-content: center;
     justify-content: center;
     pointer-events: none;
-    background: rgba(36, 41, 67, 0.9);
+    background: lightgray;
     box-shadow: none;
     height: 100%;
     left: 0;
