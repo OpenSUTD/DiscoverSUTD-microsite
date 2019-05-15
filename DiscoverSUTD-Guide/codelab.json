@@ -3,9 +3,9 @@
   "format": "html",
   "prefix": "https://storage.googleapis.com",
   "mainga": "UA-49880327-14",
-  "updated": "2019-05-15T13:49:16Z",
+  "updated": "2019-05-15T18:36:37Z",
   "id": "DiscoverSUTD-Guide",
-  "duration": 35,
+  "duration": 22,
   "title": "DiscoverSUTD Guide",
   "authors": "OpenSUTD",
   "summary": "Through this guide, you will be able to experience much of what SUTD can offer. This entire event can be accessed on the go (no more e-mail hunting!) and allows for dynamic feedback we progress.",
@@ -20,5 +20,6 @@
   "tags": [
     "university"
   ],
+  "feedback": "https://github.com/OpenSUTD/discovery-week-working-title/issues/new/choose",
   "url": "DiscoverSUTD-Guide"
 }

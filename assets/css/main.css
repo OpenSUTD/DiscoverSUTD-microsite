@@ -215,6 +215,14 @@ body {
     }
 }
 
+.section-sep {
+    background: #800000;
+    color: white;
+    width: 100%;
+    padding: 0.4em;
+    text-transform: uppercase;
+}
+
 body.is-preload *,
 body.is-preload *:before,
 body.is-preload *:after {
