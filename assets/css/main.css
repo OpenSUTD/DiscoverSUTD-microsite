@@ -193,6 +193,24 @@ body {
     background: #ffffff;
 }
 
+.discover-sutd-logo {
+    padding: 0em;
+}
+
+@media (min-width: 1366px) {
+    .discover-sutd-logo {
+        margin-left: -2.5em;
+        width: 60%;
+    }
+}
+
+@media (max-width: 1365px) {
+    .discover-sutd-logo {
+        margin-left: -1em;
+        width: 80%;
+    }
+}
+
 body.is-preload *,
 body.is-preload *:before,
 body.is-preload *:after {
@@ -220,8 +238,8 @@ textarea {
     line-height: 1.65;
 }
 
-div > p {
-	color: black;
+div>p {
+    color: black;
 }
 
 @media screen and (max-width: 1680px) {
@@ -3605,12 +3623,12 @@ body.is-preload #header.alt {
     background-color: #800000;
 }
 
-#banner > div > header > h1 {
-	color: #ffffff;
+#banner>div>header>h1 {
+    color: #ffffff;
 }
 
-#banner > div > div > p {
-	color: #ffffff;
+#banner>div>div>p {
+    color: #ffffff;
 }
 
 #banner.style3:after {
