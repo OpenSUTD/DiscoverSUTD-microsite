@@ -1,12 +1,10 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
-
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
 /*
 	Forty by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
 html,
 body,
 div,
@@ -221,6 +219,7 @@ body {
     width: 100%;
     padding: 0.4em;
     text-transform: uppercase;
+    min-width: 14em;
 }
 
 body.is-preload *,
@@ -250,13 +249,14 @@ textarea {
     color: black;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-size: 17pt;
-    font-weight: normal;
+    font-weight: lighter;
     letter-spacing: 0.025em;
     line-height: 1.65;
 }
 
 div>p {
     color: black;
+    font-weight: lighter !important;
 }
 
 @media screen and (max-width: 1680px) {
