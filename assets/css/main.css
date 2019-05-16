@@ -304,11 +304,11 @@ a {
 
 a:hover {
     border-bottom-color: transparent;
-    color: #9bf1ff !important;
+    color: lightcoral !important;
 }
 
 a:active {
-    color: #53e3fb !important;
+    color: lightcoral !important;
 }
 
 strong,
@@ -2278,11 +2278,11 @@ a.icon.alt:before {
 }
 
 a.icon.alt:hover:before {
-    background-color: #6fc3df;
+    background-color: lightcoral;
 }
 
 a.icon.alt:active:before {
-    background-color: #37a6cb;
+    background-color: lightcoral;
 }
 
 /* Image */
@@ -2531,12 +2531,12 @@ ul.pagination li>.page.active {
 }
 
 ul.pagination li>.page.active:hover {
-    background-color: #9bf1ff;
+    background-color: lightcoral;
     color: #ffffff !important;
 }
 
 ul.pagination li>.page.active:active {
-    background-color: #53e3fb;
+    background-color: lightcoral;
 }
 
 ul.pagination li:first-child {
@@ -2671,8 +2671,8 @@ button:hover,
 button:active,
 .button:hover,
 .button:active {
-    box-shadow: inset 0 0 0 2px #9bf1ff;
-    color: #9bf1ff;
+    box-shadow: inset 0 0 0 2px lightcoral;
+    color: lightcoral;
 }
 
 input[type="submit"]:active,
@@ -2681,8 +2681,8 @@ input[type="button"]:active,
 button:active,
 .button:active {
     background-color: rgba(155, 241, 255, 0.1);
-    box-shadow: inset 0 0 0 2px #53e3fb;
-    color: #53e3fb;
+    box-shadow: inset 0 0 0 2px lightcoral;
+    color: lightcoral;
 }
 
 input[type="submit"].icon:before,
@@ -2818,7 +2818,7 @@ button.primary:hover,
 button.primary:active,
 .button.primary:hover,
 .button.primary:active {
-    background-color: #9bf1ff;
+    background-color: lightcoral;
     color: #ffffff !important;
 }
 
@@ -2827,7 +2827,7 @@ input[type="reset"].primary:active,
 input[type="button"].primary:active,
 button.primary:active,
 .button.primary:active {
-    background-color: #53e3fb;
+    background-color: lightcoral;
 }
 
 input[type="submit"].disabled,
@@ -3287,11 +3287,11 @@ button:disabled,
 }
 
 #header .logo:hover strong {
-    background-color: #9bf1ff;
+    background-color: lightcoral;
 }
 
 #header .logo:active strong {
-    background-color: #53e3fb;
+    background-color: lightcoral;
 }
 
 #header nav {
