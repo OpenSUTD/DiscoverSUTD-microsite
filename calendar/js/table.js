@@ -43,7 +43,7 @@ function appendEvent( event ) {
   var eventEndDate   = new Date(event.enddate)
   console.log(event.tickets);
   if (event.tickets==="#") {
-    var eventElement   = $('<div class="event"><p>' + event.name + '</p></div>')
+    var eventElement   = $('<div class="event"><a>' + event.name + '</a></div>')
   } else {
     var eventElement   = $('<div class="event"><a target="_blank" href="' + event.tickets + '">' + event.name + '</a></div>')
   }
