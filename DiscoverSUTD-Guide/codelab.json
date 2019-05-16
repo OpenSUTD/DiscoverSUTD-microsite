@@ -3,7 +3,7 @@
   "format": "html",
   "prefix": "https://storage.googleapis.com",
   "mainga": "UA-49880327-14",
-  "updated": "2019-05-16T08:35:49Z",
+  "updated": "2019-05-16T12:01:25Z",
   "id": "DiscoverSUTD-Guide",
   "duration": 34,
   "title": "DiscoverSUTD Guide",
@@ -21,5 +21,6 @@
     "university"
   ],
   "feedback": "https://github.com/OpenSUTD/discovery-week-working-title/issues/new/choose",
+  "ga": "UA-107704241-2",
   "url": "DiscoverSUTD-Guide"
 }
