@@ -114,9 +114,10 @@ body {
     line-height: 1;
 }
 
-.padded-top {
-    padding-top: 2em;
+p {
+    line-height: 1.5;
 }
+
 
 ol,
 ul {
@@ -238,6 +239,11 @@ body.is-preload *:after {
 
 /* Type */
 
+.isDisabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
 body,
 input,
 select,
@@ -245,7 +251,7 @@ textarea {
     color: black;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-size: 17pt;
-    font-weight: 300;
+    font-weight: normal;
     letter-spacing: 0.025em;
     line-height: 1.65;
 }
@@ -3745,7 +3751,7 @@ body.is-preload #banner>.inner {
 }
 
 #main>*>.inner {
-    padding: 4em 0 2em 0;
+    padding: 2em 6em;
     margin: 0 auto;
     max-width: 65em;
     width: calc(100% - 6em);
@@ -3754,10 +3760,14 @@ body.is-preload #banner>.inner {
 @media screen and (max-width: 736px) {
 
     #main>*>.inner {
-        padding: 3em 0 1em 0;
+        padding: 2em 0 1em 0;
         width: calc(100% - 3em);
     }
 
+}
+
+#one>div>p>b {
+    color: black;
 }
 
 #main.alt {
