@@ -59,6 +59,12 @@ a:hover {
   color: rgb(252, 70, 110);
 }
 
+div > a {
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: none;
+}
+
 td {
   width: 160px;
   vertical-align: top;
