@@ -200,19 +200,18 @@ body {
 
 .discover-sutd-logo {
     padding: 0em;
+    margin: auto;
 }
 
 @media (min-width: 1366px) {
     .discover-sutd-logo {
-        margin-left: -2em;
-        width: 50%;
+        width: 40%;
     }
 }
 
 @media (max-width: 1365px) {
     .discover-sutd-logo {
-        margin-left: -1em;
-        width: 70%;
+        width: 60%;
     }
 }
 
