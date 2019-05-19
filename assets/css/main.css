@@ -1,5 +1,6 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
 /*
 	Forty by HTML5 UP
 	html5up.net | @ajlkn
@@ -210,6 +211,18 @@ body {
 @media (max-width: 1365px) {
     .discover-sutd-logo {
         width: 60%;
+    }
+}
+
+@media (max-width: 799px) {
+    .supper-img {
+        width: 90%;
+    }
+}
+
+@media (min-width: 800px) {
+    .supper-img {
+        width: 550px;
     }
 }
 
