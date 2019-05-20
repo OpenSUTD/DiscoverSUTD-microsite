@@ -42,7 +42,7 @@ function appendEvent( event ) {
   var eventStartDate = new Date(event.startdate)
   var eventEndDate   = new Date(event.enddate)
   console.log(event.tickets);
-  if (event.tickets.includes("events.html#sutd")) {
+  if (event.tickets.includes("events.html#sutd") || event.tickets.includes("events.html#fic") || event.tickets.includes("events.html#housing-sessions") ) {
     var eventElement   = $('<div class="event" style="background-color:lightcoral;"><a target="_blank" href="' + event.tickets + '">' + event.name + '</a></div>')
   } else if (event.tickets==="#") {
     var eventElement   = $('<div class="event"><a>' + event.name + '</a></div>')
