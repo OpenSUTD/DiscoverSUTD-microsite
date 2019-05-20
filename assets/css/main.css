@@ -226,6 +226,11 @@ body {
     }
 }
 
+#main > div:nth-child(1) > div > a {
+    text-decoration: none !important;
+    border: none !important;
+}
+
 .section-sep {
     background: #800000;
     color: white;
