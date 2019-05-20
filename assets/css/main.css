@@ -246,7 +246,7 @@ body {
         left: 1.32%;
         top: 10%;
         width: 40%;
-        height: 15%;
+        height: 20%;
         z-index: 2;
         border: none !important;
     }
@@ -263,16 +263,54 @@ body {
 
     .red-section {
         position: absolute;
-        left: 64.99%;
+        left: 60%;
         top: 10%;
-        width: 27.61%;
-        height: 15%;
+        width: 35%;
+        height: 20%;
         z-index: 2;
         border: none !important;
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 800px) and (max-width: 1366px) {
+
+    .floor-plan-img {
+        width: 70%;
+    }
+
+    .blue-section {
+        position: absolute;
+        left: 5%;
+        top: 10%;
+        width: 25%;
+        height: 25%;
+        z-index: 2;
+        border: none !important;
+    }
+
+    .green-section {
+        position: absolute;
+        left: 25%;
+        top: 30%;
+        width: 30%;
+        height: 30%;
+        z-index: 2;
+        border: none !important;
+    }
+
+    .red-section {
+        position: absolute;
+        left: 40%;
+        top: 10%;
+        width: 30%;
+        height: 25%;
+        z-index: 2;
+        border: none !important;
+    }
+
+}
+
+@media (min-width: 1367px) {
 
     .floor-plan-img {
         width: 70%;
