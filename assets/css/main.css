@@ -226,11 +226,6 @@ body {
     }
 }
 
-#main > div:nth-child(1) > div > a {
-    text-decoration: none !important;
-    border: none !important;
-}
-
 .section-sep {
     background: #800000;
     color: white;
@@ -238,6 +233,81 @@ body {
     padding: 0.4em;
     text-transform: uppercase;
     min-width: 14em;
+}
+
+@media (max-width: 799px) {
+
+    .floor-plan-img {
+        width: 100%;
+    }
+
+    .blue-section {
+        position: absolute;
+        left: 1.32%;
+        top: 10%;
+        width: 40%;
+        height: 15%;
+        z-index: 2;
+        border: none !important;
+    }
+
+    .green-section {
+        position: absolute;
+        left: 30%;
+        top: 25%;
+        width: 40%;
+        height: 20%;
+        z-index: 2;
+        border: none !important;
+    }
+
+    .red-section {
+        position: absolute;
+        left: 64.99%;
+        top: 10%;
+        width: 27.61%;
+        height: 15%;
+        z-index: 2;
+        border: none !important;
+    }
+}
+
+@media (min-width: 800px) {
+
+    .floor-plan-img {
+        width: 70%;
+    }
+
+    .blue-section {
+        position: absolute;
+        left: 5%;
+        top: 15%;
+        width: 30%;
+        height: 35%;
+        z-index: 2;
+        border: none !important;
+    }
+
+    .green-section {
+        position: absolute;
+        left: 25%;
+        top: 45%;
+        width: 30%;
+        height: 30%;
+        z-index: 2;
+        border: none !important;
+    }
+
+    .red-section {
+        position: absolute;
+        left: 40%;
+        top: 15%;
+        width: 30%;
+        height: 30%;
+        z-index: 2;
+        border: none !important;
+    }
+
 }
 
 body.is-preload *,
